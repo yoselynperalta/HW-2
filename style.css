@@ -27,8 +27,17 @@ header {
     text-align: center;
 }
 
+.topnav {
+    text-align: center;
+}
+
 figure {
     align-items: center;
+}
+
+img {
+    width: 350px;
+    border-color: #eec0b9;
 }
 
 header h1.page-title {
@@ -87,3 +96,24 @@ footer {
     margin: 15rem;
     text-align: center;
 }
+
+@media screen and (min-width:768px) {
+    .card-column {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .card-column:last-child {
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        width: 75%;
+    }
+    .card-column {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
