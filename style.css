@@ -1,6 +1,6 @@
 :root {
-    --b: beige;
-    --p: #eec0b9;
+    --b: #fff4e6;
+    --p: #854442;
 }
 
 ::selection {
@@ -29,6 +29,7 @@ header {
 
 .topnav {
     text-align: center;
+    
 }
 
 figure {
@@ -42,7 +43,7 @@ img {
 
 header h1.page-title {
     padding: 1rem 1.2rem;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
 }
 
 main {
@@ -86,14 +87,14 @@ main {
     margin: -4rem 0 1.5rem 0;
     padding: 0.5rem 1rem;
     background-color: var(--b);
-    color: #eec0b9;
+    color: var(--p);
     border: var(--p);
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
 
 footer {
-    margin: 15rem;
+    margin: 5rem;
     text-align: center;
 }
 
