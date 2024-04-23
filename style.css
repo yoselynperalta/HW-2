@@ -39,6 +39,10 @@ figure {
 img {
     width: 350px;
     border: 3px solid ;
+    width: 40%;
+    margin: 0 auto;
+    display:block;
+    
 }
 
 header h1.page-title {

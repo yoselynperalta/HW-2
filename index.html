@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Yoselyn's Portfolio</title>
 </head>
+
 <body>
 <header>
     <h1 class="page-title">Yoselyn Peralta</h1>
@@ -17,20 +18,24 @@
         <a class="active" href="#project3">Project 3</a>
         </ul>
     </nav>
-    <p> Hello my name is Yoselyn and welcome to my portfolio. I am currently enrolled in Columbia University's Bootcamp for software engineering.
-        My expected completion is October 2024. Thank you for visiting my page and hope you come back to see my newest accomplishments. 
-    </p>
-    <figure>
-        <img src="./Yoselyn.jpg" alt="placeholder image of me"/>
-    </figure>
-    <section> <h2>Contact Information</h2>
-            <li>Email: <a href="mailto:yoselynperalta1@gmail.com">yoselynperalta1@gmail.com</a></li>
-            <li>GitHub: <a href="https://github.com/yoselynperalta">yoselynperalta</a></li>
-    </section>
 </header>
+
+    <figure>
+    <img src="./Yoselyn.jpg" alt="placeholder image of me" class="center"/> 
+    </figure>
 
 <main> 
     <section class="row justify-center">
+        <div class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">About me</h2>
+                <div class="card-body">
+                    <p> Hello my name is Yoselyn and welcome to my portfolio. I am currently enrolled in Columbia University's Bootcamp for software engineering.
+                        My expected completion is October 2024. Thank you for visiting my page and hope you come back to see my newest accomplishments. </p>
+                </div>
+            </figure>
+        </div>
+
         <div class="card-column">
             <figure class="card code-card">
                 <h2 class="card-header">Project 1</h2>
@@ -58,6 +63,18 @@
                 </div>
             </figure>
         </div>
+
+        <div class="card-column">
+            <figure class="card code-card">
+                <h2 class="card-header">Contact Information</h2>
+                <div class="card-body">
+                    <p> <li>Email: <a href="mailto:yoselynperalta1@gmail.com">yoselynperalta1@gmail.com</a></li>
+                        <li>GitHub: <a href="https://github.com/yoselynperalta">yoselynperalta</a></li>
+                    </p>
+                </div>
+            </figure>
+        </div>
+        
 
     </section>
 
