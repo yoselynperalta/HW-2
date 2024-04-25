@@ -25,11 +25,13 @@ header {
     margin: 0 auto;
     padding: 2.5rem;
     text-align: center;
+    list-style-type: none;
 }
 
-.topnav {
+ul {
     text-align: center;
-    margin: 5px;
+    margin: 4px;
+    list-style-type: none;
     
 }
 
